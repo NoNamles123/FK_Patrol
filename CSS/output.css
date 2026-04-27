@@ -249,8 +249,14 @@
   .mb-8 {
     margin-bottom: calc(var(--spacing) * 8);
   }
+  .mb-10 {
+    margin-bottom: calc(var(--spacing) * 10);
+  }
   .mb-12 {
     margin-bottom: calc(var(--spacing) * 12);
+  }
+  .block {
+    display: block;
   }
   .flex {
     display: flex;
@@ -279,11 +285,17 @@
   .w-8 {
     width: calc(var(--spacing) * 8);
   }
+  .w-full {
+    width: 100%;
+  }
   .max-w-4xl {
     max-width: var(--container-4xl);
   }
   .max-w-6xl {
     max-width: var(--container-6xl);
+  }
+  .max-w-\[600px\] {
+    max-width: 600px;
   }
   .max-w-md {
     max-width: var(--container-md);
